@@ -1,0 +1,29 @@
+{
+  "name": "vivaldi-coordinates",
+  "version": "0.0.0",
+  "description": "Vivaldi: A Decentralized Network Coordinate System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reklatsmasters/vivaldi-coordinates.git"
+  },
+  "keywords": [
+    "vivaldi",
+    "coordinates",
+    "dht",
+    "dnc",
+    "torrent",
+    "network",
+		"vuze",
+		"Azureus"
+  ],
+  "author": "Dmitry Tsvettsikh <me@reklatsmasters.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reklatsmasters/vivaldi-coordinates/issues"
+  },
+  "homepage": "https://github.com/reklatsmasters/vivaldi-coordinates#readme"
+}
