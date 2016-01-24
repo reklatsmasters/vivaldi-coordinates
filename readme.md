@@ -1,5 +1,5 @@
 # vivaldi-coordinates
-Vivaldi: A Decentralized Network Coordinate System. Originaly description [here](https://www.cs.umd.edu/class/spring2007/cmsc711/papers/vivaldi.pdf)
+Vivaldi: A Decentralized Network Coordinate System. Originaly description [here](https://www.cs.umd.edu/class/spring2007/cmsc711/papers/vivaldi.pdf).This package based on source code of [Vuze](https://vuze.com/) and required nodejs >= 4.
 
 ## API
 
