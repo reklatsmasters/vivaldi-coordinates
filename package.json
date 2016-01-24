@@ -4,7 +4,7 @@
   "description": "Vivaldi: A Decentralized Network Coordinate System",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha -r should"
   },
   "repository": {
     "type": "git",
@@ -17,13 +17,17 @@
     "dnc",
     "torrent",
     "network",
-		"vuze",
-		"Azureus"
+    "vuze",
+    "Azureus"
   ],
   "author": "Dmitry Tsvettsikh <me@reklatsmasters.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/reklatsmasters/vivaldi-coordinates/issues"
   },
-  "homepage": "https://github.com/reklatsmasters/vivaldi-coordinates#readme"
+  "homepage": "https://github.com/reklatsmasters/vivaldi-coordinates#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^8.2.0"
+  }
 }
