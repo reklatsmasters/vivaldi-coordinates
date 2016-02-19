@@ -1,4 +1,10 @@
 # vivaldi-coordinates
+[![travis](https://travis-ci.org/ReklatsMasters/vivaldi-coordinates.svg)](https://travis-ci.org/ReklatsMasters/vivaldi-coordinates)
+[![npm](https://img.shields.io/npm/v/vivaldi-coordinates.svg)](https://npmjs.org/package/vivaldi-coordinates)
+[![license](https://img.shields.io/npm/l/vivaldi-coordinates.svg)](https://npmjs.org/package/vivaldi-coordinates)
+[![downloads](https://img.shields.io/npm/dm/vivaldi-coordinates.svg)](https://npmjs.org/package/vivaldi-coordinates)
+[![Code Climate](https://codeclimate.com/github/ReklatsMasters/vivaldi-coordinates/badges/gpa.svg)](https://codeclimate.com/github/ReklatsMasters/vivaldi-coordinates)
+
 Vivaldi: A Decentralized Network Coordinate System. Originaly description [here](https://www.cs.umd.edu/class/spring2007/cmsc711/papers/vivaldi.pdf).This package based on source code of [Vuze](https://vuze.com/) and required nodejs >= 4.
 
 ## API
