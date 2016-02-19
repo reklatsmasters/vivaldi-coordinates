@@ -1,6 +1,6 @@
 {
   "name": "vivaldi-coordinates",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Vivaldi: A Decentralized Network Coordinate System",
   "main": "index.js",
   "scripts": {
