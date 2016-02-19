@@ -3,14 +3,11 @@
 const VivaldiPosition = require('./lib/vivaldiposition');
 const HeightCoordinates = require('./lib/heightcoodinates');
 
-/**
- * Vivaldi Papers :
- * https://www.cs.umd.edu/class/spring2007/cmsc711/papers/vivaldi.pdf
- */
-
 function create(data) {
 	if (data instanceof Float32Array && data.length == 4) {
 		return VivaldiPosition.fromFloatArray(data);
+	} else if (Array.isArray(data) && data.length == 4) {
+		return VivaldiPosition.fromFloatArray(new Float32Array(data));
 	} else if (isCoordinate(data)) {
 		return new VivaldiPosition(data);
 	} else {
