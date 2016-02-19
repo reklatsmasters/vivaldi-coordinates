@@ -4,7 +4,8 @@
   "description": "Vivaldi: A Decentralized Network Coordinate System",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha -r should"
+    "test": "node_modules/.bin/mocha -r should",
+    "coverage": "babel-istanbul cover --report lcovonly ./node_modules/mocha/bin/_mocha -- -u exports  -r should"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,8 @@
   },
   "homepage": "https://github.com/reklatsmasters/vivaldi-coordinates#readme",
   "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-istanbul": "^0.6.0",
     "mocha": "^2.3.4",
     "should": "^8.2.0"
   }
