@@ -1,5 +1,5 @@
 # vivaldi-coordinates
-[![travis](https://travis-ci.org/ReklatsMasters/vivaldi-coordinates.svg)](https://travis-ci.org/ReklatsMasters/vivaldi-coordinates)
+[![Build Status](https://travis-ci.org/reklatsmasters/vivaldi-coordinates.svg?branch=master)](https://travis-ci.org/reklatsmasters/vivaldi-coordinates)
 [![npm](https://img.shields.io/npm/v/vivaldi-coordinates.svg)](https://npmjs.org/package/vivaldi-coordinates)
 [![license](https://img.shields.io/npm/l/vivaldi-coordinates.svg)](https://npmjs.org/package/vivaldi-coordinates)
 [![downloads](https://img.shields.io/npm/dm/vivaldi-coordinates.svg)](https://npmjs.org/package/vivaldi-coordinates)
